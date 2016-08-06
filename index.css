@@ -16,6 +16,7 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	color: rgb(150, 150, 150);
+	padding: 0px 2px;
 }
 
 a:hover {
@@ -32,4 +33,8 @@ a:hover {
 
 #linkedin:hover {
 	color: rgb(0, 119, 181);
+}
+
+#email:hover {
+	color: rgb(220, 77, 65);
 }
