@@ -54,10 +54,17 @@ body {
 	width: 30%;
 	height: 100%;
 	margin: 0px 20px;
-	border: 2px solid;
+	border: 2px solid black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.content-row .project:hover {
+	background-color: rgb(240, 240, 240);
 }
 
 .content-row .project h1 {
