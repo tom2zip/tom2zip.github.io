@@ -1,72 +1,30 @@
 body {
 	font-family: 'Muli', sans-serif;
+	background: rgb(0, 39, 104);
+	height: 100vh;
 }
 
-#basic-info {
-	display: block;
-	width: 100%;
-	height: 100px;
-	position: absolute;
-	top: 8%;
-	/*border: 1px solid;*/
+h2, a {
+	color: rgb(230, 230, 230);
 }
 
-#basic-info #name-email {
-	text-align: center;
-}
-
-#basic-info #name-email h2 {
-	font-weight: normal;
-	color: rgb(50, 50, 50);
-}
-
-#basic-info #contact-info {
-	text-align: center;
-	width: 100%;
-}
-
-#basic-info a {
-	font-size: 16px;
-	text-decoration: none;
-	color: rgb(50, 50, 50);
-	padding: 0px 25px;
-}
-
-#basic-info a:hover {
-	color: rgba(50, 50, 50, 0.5);
-}
-
-#content {
-	display: block;
-	width: 100%;
-	height: 100px;
-	position: absolute;
-	top: 30%;
-	/*border: 1px solid;*/
-}
-
-.content-row {
-	height: 200px;
-	display: flex;
-}
-
-.content-row .project {
-	width: 30%;
-	height: 100%;
-	margin: 0px 20px;
-	border: 2px solid black;
+#main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 100%;
+}
+
+#contact-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#contact-info a {
 	text-decoration: none;
-	color: black;
 }
 
-.content-row .project:hover {
-	background-color: rgb(240, 240, 240);
-}
-
-.content-row .project h1 {
-	font-weight: normal;
-	font-family: 'Droid Serif', serif;
+#contact-info a:hover {
+	color: rgba(230, 230, 230, 0.5);
 }
